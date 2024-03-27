@@ -1,5 +1,7 @@
 import React from 'react'
 import CardCanal from '../componentes/CardCanal'
+import { useState } from 'react'
+
 
 const TigoEspecialH = () => {
 
@@ -1542,18 +1544,109 @@ const TigoEspecialH = () => {
     }
   ]
 
+  const categorias = [
+    {
+      id: 1,
+      nombre: 'Audio Musical'
+    },
+    {
+      id: 2,
+      nombre: 'Cine'
+    },
+    {
+      id: 3,
+      nombre: 'Colombiano'
+    },
+    {
+      id: 4,
+      nombre: 'Cultural'
+    },
+    {
+      id: 5,
+      nombre: 'Deportes'
+    },
+    {
+      id: 6,
+      nombre: 'Especializado'
+    },
+    {
+      id: 7,
+      nombre: 'Infantil'
+    },
+    {
+      id: 8,
+      nombre: 'Informativo'
+    },
+    {
+      id: 9,
+      nombre: 'Internacional'
+    },
+    {
+      id: 10,
+      nombre: 'Musical'
+    },
+    {
+      id: 11,
+      nombre: 'Religioso'
+    },
+    {
+      id: 12,
+      nombre: 'Series'
+    },
+    {
+      id: 13,
+      nombre: 'Variedades'
+    }
+  ]
+
+  const [filtroTexto, setFiltroTexto] = useState('');
+  const [filtroCategoria, setFiltroCategoria] = useState('');
+
+  const handleTextoInputChange = (event) => {
+    setFiltroTexto(event.target.value);
+  };
+
+  const handleCategoriaChange = (event) => {
+    setFiltroCategoria(event.target.value);
+  };
+
+  // Filtrar los canales basados en el texto y la categoría seleccionada
+  const canalesFiltrados = tigoEspecialHfc.filter(avanzada => {
+    // Filtrar por texto
+    const textoMatch = avanzada.nombre.toLowerCase().includes(filtroTexto.toLowerCase());
+    // Filtrar por categoría
+    const categoriaMatch = filtroCategoria === '' || avanzada.genero === filtroCategoria;
+    return textoMatch && categoriaMatch;
+  });
+
+
   return (
     <div className='pageTigoEspecialH'>
       <h3>Con el plan <span>Tigo Especial</span> puedes disfrutar el contenido de los siguientes canales:</h3>
+      <div className='div-buscadores'>
+        <input
+          className='buscarPor'
+          type="text"
+          placeholder='Buscar Canal'
+          value={filtroTexto}
+          onChange={handleTextoInputChange}
+        />
+        <select className='buscarPor' name="" id="" value={filtroCategoria} onChange={handleCategoriaChange}>
+          <option value="">Buscar por Categoría</option>
+          {categorias.map(categoria => (
+            <option value={categoria.nombre}>{categoria.nombre}</option>
+          ))}
+        </select>
+      </div>
       <div className='pageTigoEspecialH-canales'>
-        {tigoEspecialHfc.map(especial =>(
+        {canalesFiltrados.map(avanzada => (
           <CardCanal
-          key = {especial.id}
-          canal = {especial.canal}
-          tipo = {especial.tipo}
-          nombre = {especial.nombre}
-          genero = {especial.genero}
-          img = {especial.img}
+            key={avanzada.id}
+            canal={avanzada.canal}
+            tipo={avanzada.tipo}
+            nombre={avanzada.nombre}
+            genero={avanzada.genero}
+            img={avanzada.img}
           />
         ))}
       </div>

@@ -134,7 +134,7 @@ a {
 }
 
 
-/* Tigo Especial HFC */
+/* Tigo Especial HFC / Tigo Avanzada HFC */
 
 .pageTigoEspecialH {
   padding-top: 60px;
@@ -159,4 +159,26 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px
+}
+
+.div-buscadores{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 35px;
+}
+
+.buscarPor{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #00377D;
+  color: #00377D;
+}
+
+.buscarPor:focus{
+  outline: none;
+  box-shadow: 0px 0px 4px 2px #d7d4ff;
 }
