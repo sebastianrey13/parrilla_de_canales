@@ -167,7 +167,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   margin-bottom: 35px;
 }
 
@@ -176,9 +176,12 @@ a {
   border-radius: 10px;
   border: 1px solid #00377D;
   color: #00377D;
+  width: 200px;
 }
 
 .buscarPor:focus{
   outline: none;
   box-shadow: 0px 0px 4px 2px #d7d4ff;
 }
+
+
