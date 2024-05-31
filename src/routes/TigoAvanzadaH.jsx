@@ -2,6 +2,8 @@ import React from 'react'
 import CardCanal from '../componentes/CardCanal.jsx'
 import { useState } from 'react'
 
+import logoTigo from '../../public/images/Logo_Tigo.png'
+
 const TigoAvanzadaH = () => {
 
 
@@ -630,14 +632,14 @@ const TigoAvanzadaH = () => {
       genero: "Colombiano",
       img: "https://images.tigocloud.net/j1bxozgharz5/co6ncEX5zYsUdHwPOyWnotgG/818bb7f2c4b38af19acf8e775526c85d/ic-canal-univalle-tv.jpeg?q=70&fm=avif"
     },
-    {
-      id: 79,
-      canal: 147,
-      tipo: "SD",
-      nombre: "France24",
-      genero: "Internacional",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co6Rf436Cm9jXHbd9h4FGzFq/080b517ea95e21708d7dbaff2145884b/ic-canal-france-24.jpeg?q=70&fm=avif"
-    },
+    // {
+    //   id: 79,
+    //   canal: 147,
+    //   tipo: "SD",
+    //   nombre: "France24",
+    //   genero: "Internacional",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co6Rf436Cm9jXHbd9h4FGzFq/080b517ea95e21708d7dbaff2145884b/ic-canal-france-24.jpeg?q=70&fm=avif"
+    // },
     {
       id: 80,
       canal: 148,
@@ -702,14 +704,14 @@ const TigoAvanzadaH = () => {
       genero: "Variedades",
       img: "https://images.tigocloud.net/j1bxozgharz5/co3zM8MVNBtiwxvn6ysEc0Yd/e233dab0e6a255f75b505f1b2bf9c2db/ic-canal-nuestra-tele.svg"
     },
-    {
-      id: 88,
-      canal: 156,
-      tipo: "SD",
-      nombre: "bitMe",
-      genero: "Variedades",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co3TKvJqIoCAx6Hn7wfISccZ/dd0b11b64a82d6dc6efef96385ad005f/ic-canal-bitme.svg"
-    },
+    // {
+    //   id: 88,
+    //   canal: 156,
+    //   tipo: "SD",
+    //   nombre: "bitMe",
+    //   genero: "Variedades",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co3TKvJqIoCAx6Hn7wfISccZ/dd0b11b64a82d6dc6efef96385ad005f/ic-canal-bitme.svg"
+    // },
     {
       id: 89,
       canal: 158,
@@ -726,14 +728,14 @@ const TigoAvanzadaH = () => {
       genero: "Infantil",
       img: "https://images.tigocloud.net/j1bxozgharz5/co1eKtT8254WxPepXVuOBfee/638dd9c1a5d537ae9117459e98f91d58/ic-canal-tooncast.png?q=70&fm=avif"
     },
-    {
-      id: 91,
-      canal: 160,
-      tipo: "SD",
-      nombre: "Nick Jr.",
-      genero: "Infantil",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co5SA9ISB041yAMNHquv9XUA/1db66e219c3c7c49b61a48f1cd00049e/ic-canal-nick-jr.png?q=70&fm=avif"
-    },
+    // {
+    //   id: 91,
+    //   canal: 160,
+    //   tipo: "SD",
+    //   nombre: "Nick Jr.",
+    //   genero: "Infantil",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co5SA9ISB041yAMNHquv9XUA/1db66e219c3c7c49b61a48f1cd00049e/ic-canal-nick-jr.png?q=70&fm=avif"
+    // },
     {
       id: 92,
       canal: 162,
@@ -830,22 +832,22 @@ const TigoAvanzadaH = () => {
       genero: "Variedades",
       img: "https://images.tigocloud.net/j1bxozgharz5/igZ79sx9dDtQ19wD58h9T/03b29e5eb733ec02633a6bc3dc92d1f1/40_x_40_Px.png?q=70&fm=avif"
     },
-    {
-      id: 104,
-      canal: 176,
-      tipo: "SD",
-      nombre: "Telehit Música (antes Urbano)",
-      genero: "Musical",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co6y2AwOjep5nDE4odg2CQuM/45e5df61ffa3fc30f96c68bb88fe4dab/ic-canal-telehit-musica.svg"
-    },
-    {
-      id: 105,
-      canal: 177,
-      tipo: "SD",
-      nombre: "Telehit",
-      genero: "Musical",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co6lWZ5lnSmKCBzTcQuLjWK8/c13a4aa05b9ebbcc4bc825a21432456f/ic-canal-telehit.svg"
-    },
+    // {
+    //   id: 104,
+    //   canal: 176,
+    //   tipo: "SD",
+    //   nombre: "Telehit Música (antes Urbano)",
+    //   genero: "Musical",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co6y2AwOjep5nDE4odg2CQuM/45e5df61ffa3fc30f96c68bb88fe4dab/ic-canal-telehit-musica.svg"
+    // },
+    // {
+    //   id: 105,
+    //   canal: 177,
+    //   tipo: "SD",
+    //   nombre: "Telehit",
+    //   genero: "Musical",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co6lWZ5lnSmKCBzTcQuLjWK8/c13a4aa05b9ebbcc4bc825a21432456f/ic-canal-telehit.svg"
+    // },
     {
       id: 106,
       canal: 178,
@@ -870,22 +872,22 @@ const TigoAvanzadaH = () => {
       genero: "Internacional",
       img: "https://images.tigocloud.net/j1bxozgharz5/co75PUD7mHE7awydYHudkEf4/59254e55dd9615287d42aed0ecbd854c/ic-canal-dw.png?q=70&fm=avif"
     },
-    {
-      id: 109,
-      canal: 181,
-      tipo: "SD",
-      nombre: "TV5 ",
-      genero: "Internacional",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co3KiU5n8erOTDhLZddr64t8/10e3ade4b24ffab396d8c74d13de002c/ic-canal-tv5.svg"
-    },
-    {
-      id: 110,
-      canal: 182,
-      tipo: "SD",
-      nombre: "Food Network",
-      genero: "Especializado",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co3ArorpDKyl2drPP9Z7eEF5/026c44da85137857213bcf7381331d00/ic-canal-food-network.png?q=70&fm=avif"
-    },
+    // {
+    //   id: 109,
+    //   canal: 181,
+    //   tipo: "SD",
+    //   nombre: "TV5 ",
+    //   genero: "Internacional",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co3KiU5n8erOTDhLZddr64t8/10e3ade4b24ffab396d8c74d13de002c/ic-canal-tv5.svg"
+    // },
+    // {
+    //   id: 110,
+    //   canal: 182,
+    //   tipo: "SD",
+    //   nombre: "Food Network",
+    //   genero: "Especializado",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co3ArorpDKyl2drPP9Z7eEF5/026c44da85137857213bcf7381331d00/ic-canal-food-network.png?q=70&fm=avif"
+    // },
     {
       id: 111,
       canal: 183,
@@ -918,14 +920,14 @@ const TigoAvanzadaH = () => {
       genero: "Informativo",
       img: "https://images.tigocloud.net/j1bxozgharz5/co1pgcYKQEZdTR5F2vFIpYr9/95f2f01cdbaa51dca45c390c31e9b2d8/ic-canal-cnn.png?q=70&fm=avif"
     },
-    {
-      id: 115,
-      canal: 188,
-      tipo: "SD",
-      nombre: "Antena 3",
-      genero: "Internacional",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co43LGzimvgdV357utZ80HwI/eb4a0256f1e2a1b6ffb33803ecd66eed/ic-canal-antena3.png?q=70&fm=avif"
-    },
+    // {
+    //   id: 115,
+    //   canal: 188,
+    //   tipo: "SD",
+    //   nombre: "Antena 3",
+    //   genero: "Internacional",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co43LGzimvgdV357utZ80HwI/eb4a0256f1e2a1b6ffb33803ecd66eed/ic-canal-antena3.png?q=70&fm=avif"
+    // },
     {
       id: 116,
       canal: 189,
@@ -950,22 +952,22 @@ const TigoAvanzadaH = () => {
       genero: "Informativo",
       img: "https://images.tigocloud.net/j1bxozgharz5/co6uOo3IU4gC25AVEF6RvkBm/2fdf00650d3ed09afd961bd50ae359be/ic-canal-bbc-world.png?q=70&fm=avif"
     },
-    {
-      id: 119,
-      canal: 192,
-      tipo: "SD",
-      nombre: "Adult Swim",
-      genero: "Series",
-      img: "https://images.tigocloud.net/j1bxozgharz5/6SgKxErUmIW883BkarMwH8/5ff4546aefb4f90625a6495714627c5a/Adult_Swim.png?q=70&fm=avif"
-    },
-    {
-      id: 120,
-      canal: 194,
-      tipo: "SD",
-      nombre: "El Trece Internacional",
-      genero: "Variedades",
-      img: "https://images.tigocloud.net/j1bxozgharz5/co61YhZh96f09q2MGQdjBV5O/9d80f1ac6fe0bb7d98a862e3d4f8958c/ic-canal-eltrece.png?q=70&fm=avif"
-    },
+    // {
+    //   id: 119,
+    //   canal: 192,
+    //   tipo: "SD",
+    //   nombre: "Adult Swim",
+    //   genero: "Series",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/6SgKxErUmIW883BkarMwH8/5ff4546aefb4f90625a6495714627c5a/Adult_Swim.png?q=70&fm=avif"
+    // },
+    // {
+    //   id: 120,
+    //   canal: 194,
+    //   tipo: "SD",
+    //   nombre: "El Trece Internacional",
+    //   genero: "Variedades",
+    //   img: "https://images.tigocloud.net/j1bxozgharz5/co61YhZh96f09q2MGQdjBV5O/9d80f1ac6fe0bb7d98a862e3d4f8958c/ic-canal-eltrece.png?q=70&fm=avif"
+    // },
     {
       id: 121,
       canal: 200,
@@ -1327,6 +1329,14 @@ const TigoAvanzadaH = () => {
       img: "https://images.tigocloud.net/j1bxozgharz5/co1yFHegLNsvHUaZRPqyesDh/254242624ef8b1418d02361421c5c160/ic-canal-h2.svg"
     },
     {
+      id: 262,
+      canal: 275,
+      tipo: "HD",
+      nombre: "Curiosity HD",
+      genero: "",
+      img: logoTigo,
+    },
+    {
       id: 166,
       canal: 280,
       tipo: "HD",
@@ -1415,6 +1425,14 @@ const TigoAvanzadaH = () => {
       img: "https://images.tigocloud.net/j1bxozgharz5/co4ctnYyKEBpBNFWMBOqfXbA/4caa96cff333507ee1e7c12a9434a151/ic-canal-studio-universal-hd.png?q=70&fm=avif"
     },
     {
+      id: 263,
+      canal: 292,
+      tipo: "HD",
+      nombre: "Europa Europa HD",
+      genero: "",
+      img: logoTigo,
+    },
+    {
       id: 177,
       canal: 300,
       tipo: "HD",
@@ -1477,6 +1495,14 @@ const TigoAvanzadaH = () => {
       nombre: "STAR CHANNEL HD",
       genero: "Series",
       img: "https://images.tigocloud.net/j1bxozgharz5/co1il3gYdYmGTz1TFlsQxCcC/633aa53e25f7770a7a83205f50ec6486/ic-canal-star-channel.svg"
+    },
+    {
+      id: 264,
+      canal: 308,
+      tipo: "HD",
+      nombre: "STAR TVE",
+      genero: "",
+      img: logoTigo,
     },
     {
       id: 185,
@@ -1599,6 +1625,14 @@ const TigoAvanzadaH = () => {
       img: "https://images.tigocloud.net/j1bxozgharz5/coga4EVrg0iqYaoB5jQDQ23/1af11fa8f2a16ef374bf03f872502128/ic-canal-e.png?q=70&fm=avif"
     },
     {
+      id: 265,
+      canal: 350,
+      tipo: "HD",
+      nombre: "Al Jazeera HD",
+      genero: "",
+      img: logoTigo,
+    },
+    {
       id: 200,
       canal: 351,
       tipo: "HD",
@@ -1631,12 +1665,28 @@ const TigoAvanzadaH = () => {
       img: "https://images.tigocloud.net/j1bxozgharz5/coiemH78B5OUt1KZf4556nT/1681003610d32d9efe3720c301641fd3/ic-canal-pasiones.png?q=70&fm=avif"
     },
     {
+      id: 266,
+      canal: 363,
+      tipo: "HD",
+      nombre: "SUN CHANNEL HD",
+      genero: "",
+      img: logoTigo,
+    },
+    {
       id: 204,
       canal: 364,
       tipo: "HD",
       nombre: "El Trece Internacional HD",
       genero: "Variedades",
       img: "https://images.tigocloud.net/j1bxozgharz5/co61YhZh96f09q2MGQdjBV5O/9d80f1ac6fe0bb7d98a862e3d4f8958c/ic-canal-eltrece.png?q=70&fm=avif"
+    },
+    {
+      id: 267,
+      canal: 365,
+      tipo: "HD",
+      nombre: "HOLA TV HD",
+      genero: "",
+      img: logoTigo,
     },
     {
       id: 205,
@@ -2093,7 +2143,7 @@ const TigoAvanzadaH = () => {
       nombre: "Clásicos Indie",
       genero: "Audio Musical",
       img: "https://images.tigocloud.net/j1bxozgharz5/co7HIOMvLNCnJ6T6AETCRMKc/886ba0457934e7cb08f8f02a8906ecf9/ic-canal-music.png?q=70&fm=avif"
-    }
+    },
   ]
 
   const categorias = [
